@@ -1,0 +1,7 @@
+$shadow: #ff0080;
+$primaryText: #333;
+
+.Header {
+  color: $primaryText;
+  text-shadow: 2px 2px $shadow;
+}

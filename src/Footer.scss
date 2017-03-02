@@ -1,0 +1,14 @@
+$primaryText: #333;
+$linkText: #ff0080;
+$roominess: 20px;
+
+.Footer {
+  color: $primaryText;
+  text-align: center;
+  padding: $roominess;
+  margin: $roominess;
+}
+
+.linkName {
+  color: $linkText;
+}
