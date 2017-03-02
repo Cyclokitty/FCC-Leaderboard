@@ -1,0 +1,20 @@
+$primaryText: #333;
+$bgStripe: #ff0080;
+
+table {
+  margin: 0px auto;
+  border-collapse: collapse;
+  border: 1px solid $primaryText;
+}
+
+th, td {
+  padding: 20px;
+}
+
+th {
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: $bgStripe;
+}
