@@ -1,2 +1,6 @@
 .tdLeft {
   text-align: left; }
+
+a:link {
+  color: #333;
+  text-decoration: none; }

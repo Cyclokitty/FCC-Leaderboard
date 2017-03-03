@@ -1,3 +1,10 @@
+$primaryText: #333;
+
 .tdLeft {
   text-align: left;
+}
+
+a:link {
+  color: $primaryText;
+  text-decoration: none;
 }
