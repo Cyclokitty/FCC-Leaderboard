@@ -1,6 +1,6 @@
 .Buttons {
   color: #333;
-  background-color: #ff0080;
+  background-color: #ff66b2;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
@@ -21,4 +21,4 @@ th {
   height: 30px; }
 
 tr:nth-child(even) {
-  background-color: #ff0080; }
+  background-color: #ff3299; }

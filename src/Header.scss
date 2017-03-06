@@ -1,7 +1,8 @@
-$shadow: #ff0080;
+$shadow: #ff3299;
 $primaryText: #333;
 
 .Header {
   color: $primaryText;
   text-shadow: 2px 2px $shadow;
+  font-size: 1.4em;
 }

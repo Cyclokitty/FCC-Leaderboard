@@ -8,7 +8,8 @@ class Table extends Component {
     super(props);
     this.state = {
       data: [],
-      url: 'https://fcctop100.herokuapp.com/api/fccusers/top/recent'
+      url: 'https://fcctop100.herokuapp.com/api/fccusers/top/recent',
+      heading: 'Top Campers in Last 30 Days'
     }
     this.top30 = this.top30.bind(this);
     this.alltime = this.alltime.bind(this);
@@ -20,6 +21,8 @@ class Table extends Component {
       .then(res => {
         const data = res.data;
         this.setState({data});
+        this.setState({url: 'https://fcctop100.herokuapp.com/api/fccusers/top/recent'});
+        this.setState({heading: 'Top Campers in Last 30 Days'})
     });
   }
 
@@ -29,6 +32,8 @@ class Table extends Component {
       .then(res => {
         const data = res.data;
         this.setState({data});
+        this.setState({url: 'https://fcctop100.herokuapp.com/api/fccusers/top/alltime'});
+        this.setState({heading: 'Top Campers of All Time'})
     });
   }
 
@@ -46,6 +51,7 @@ class Table extends Component {
       <div>
         <button className='Buttons' onClick={this.top30}>Last 30 Days</button>
         <button className='Buttons' onClick={this.alltime}>All time</button>
+        <h3>{this.state.heading}</h3>
         <table>
           <tbody>
             <tr>
