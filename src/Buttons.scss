@@ -1,5 +1,4 @@
 $primaryText: #333;
-$bgStripe: #ff0080;
 $bgColor: #ff0080;
 $shadowGrey: #c0c0c0;
 $roominess: 20px;
@@ -14,22 +13,4 @@ $roominess: 20px;
   outline: none;
   font-size: 1.2em;
   text-shadow: 1px 1px $shadowGrey;
-}
-
-table {
-  margin: 0px auto;
-  border-collapse: collapse;
-  border: 1px solid $primaryText;
-}
-
-th, td {
-  padding: 20px;
-}
-
-th {
-  height: 30px;
-}
-
-tr:nth-child(even) {
-  background-color: $bgStripe;
 }

@@ -8,17 +8,3 @@
   outline: none;
   font-size: 1.2em;
   text-shadow: 1px 1px #c0c0c0; }
-
-table {
-  margin: 0px auto;
-  border-collapse: collapse;
-  border: 1px solid #333; }
-
-th, td {
-  padding: 20px; }
-
-th {
-  height: 30px; }
-
-tr:nth-child(even) {
-  background-color: #ff0080; }
